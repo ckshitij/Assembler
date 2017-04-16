@@ -58,7 +58,7 @@ void init()
 
 int stoi_dc(string ss)
 {
-	int ans = 1;
+	int ans = 0;
 	for(int i = 1 ; i < ss.size() -1 ; i++)
 	{
 		ans = ans * 10 + ss[i] - '0';
