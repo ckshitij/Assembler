@@ -40,3 +40,23 @@ This is known as a forward reference.
 + [REF_2](http://users.cis.fiu.edu/~downeyt/cop3402/two-pass.htm)
 + [StackOverFlow](http://stackoverflow.com/questions/10244422/how-is-2-pass-assembler-different-from-one-pass-assembler-in-resolving-the-futur)
  
+## How to Run Code
+
++ Make a new folder **"Assebler"**.
++ Download **Mot_input,assembler.cpp** and **pass1_input** in Assembler folder.
++ compile assembler.cpp
+
+         
+          g++ -std=c++11 assembler.cpp
+          ./a.out
+          
+       
+          
++ It generate Three Files
+          + pass1_out
+          + pass2_input
+          + pass2_out
++ You can see files using **cat command**<br>
+          ```
+          cat filename
+          ```
