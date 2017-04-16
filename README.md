@@ -52,10 +52,10 @@ This is known as a forward reference.
           
        
           
-+ It generate Three Files
-          + pass1_out
-          + pass2_input
-          + pass2_out
++ It generate Three Files.
+   + pass1_out
+   + pass2_input
+   + pass2_out
 + You can see files using **cat command**<br>
           ```
           cat filename
